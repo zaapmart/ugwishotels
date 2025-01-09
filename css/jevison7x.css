@@ -1,0 +1,45 @@
+/*
+ * Copyright (c) 2018, Xyneex Technologies. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * You are not meant to edit or modify this source code unless you are
+ * authorized to do so.
+ *
+ * Please contact Xyneex Technologies, #1 Orok Orok Street, Calabar, Nigeria.
+ * or visit www.xyneex.com if you need additional information or have any
+ * questions.
+*/
+/*
+    Created on : Oct 28, 2023, 4:22:58 PM
+    Author     : Jevison7x
+*/
+:root {
+    --primary: #a67d39a3;
+    --secondary: #a67d39a3;
+    --light: #F5F5F5;
+    --dark: #14141F;
+}
+.text-primary {
+    color: #c5a147 !important;
+}
+.bg-primary {
+    background-color: #a67d39a3;
+}
+.btn-primary {
+    background-color: #a67d39a3;
+    border-color: #a67d39a3;
+}
+.btn-primary:hover {
+    background-color: black;
+    border-color: white;
+    border-width: 2px;
+}
+.btn.btn-primary:active{
+    background-color: #a67d39a3;
+    border-color: #a67d39a3;
+}
+.btn-primary:focus {
+    background-color: #a67d39a3;
+    border-color: #a67d39a3;
+    box-shadow: 0 0 0 0.25rem #c5a147;
+}

@@ -1,0 +1,173 @@
+/*
+ * Copyright (c) 2018, Xyneex Technologies. All rights reserved.
+ * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ *
+ * You are not meant to edit or modify this source code unless you are
+ * authorized to do so.
+ *
+ * Please contact Xyneex Technologies, #1 Orok Orok Street, Calabar, Nigeria.
+ * or visit www.xyneex.com if you need additional information or have any
+ * questions.
+*/
+/*
+    Created on : Oct 29, 2023, 12:00:43 AM
+    Author     : KUFRE
+*/
+
+.h-and-s{
+    color: white;
+    position: absolute;
+    top: 60px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.hotel-name{
+    margin-left: 59px;
+    position: absolute;
+    top: 22px;
+}
+.carousel-image{
+    width: 100%;
+}
+.about-text{
+    text-align: justify;
+}
+.service-images{
+    width: 100%;
+}
+.service-images img{
+    width: 100%;
+    border: 1px #c5a147;
+    box-shadow: 5px 5px #c5a147;
+}
+.icon-title{
+    display: flex;
+}
+.icon-title .fa-3x{
+    font-size: 22px !important;
+}
+.facility-titles{
+    margin-left: 10px;
+}
+.facility-gist p{
+    margin-top: 5px;
+    text-align: justify;
+    color: black;
+}
+.deluxe-container{
+    margin-top: 30px;
+}
+.executive-container{
+    margin-top: 30px;
+}
+.booking2{
+    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../images/Restuarant.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#select1{
+    height: calc(2rem + 2px);
+}
+.duration{
+    position: relative;
+    bottom: 29px;
+    color: black;
+    margin-left: 10px;
+}
+.select-room-type label{
+    font-size: 17px;
+    color: black;
+}
+.checkin-date label{
+    bottom: 5px;
+}
+.room-type{
+    top: 16px;
+    position: relative;
+}
+.carousel-container{
+    max-height: 500px;
+}
+.carousel-caption h1{
+    color: white !important;
+}
+.carousel-item {
+    position: relative;
+}
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+}
+.carousel-caption {
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* Set the text color */
+    z-index: 1;
+}
+.video-cont{
+    text-align: center;
+}
+.testimonial-carousel p{
+    font-size: 13px;
+}
+.carousel-caption a{
+    border-radius: 8px 8px;
+    margin-top: 30px;
+}
+.carousel-inner .carousel-item {
+    animation: fly-in-down-slide-in-left 2s ease;
+}
+
+@keyframes fly-in-down-slide-in-left {
+    0% {
+        transform: translateY(-100%) translateX(-100%);
+    }
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+}
+.reservation{
+    margin-top: 10px !important;
+}
+.reservation-content{
+    box-shadow: 5px 5px #c5a147;
+
+}
+.map-footer img{
+    width: 100%;
+}
+
+.home-page .navbar-light .navbar-nav .nav-link.home-link,
+.about-page .navbar-light .navbar-nav .nav-link.about-link,
+.facilities-page .navbar-light .navbar-nav .nav-link.facilities-link,
+.room-page .navbar-light .navbar-nav .nav-link.room-link,
+.tour-page .navbar-light .navbar-nav .nav-link.tour-link,
+.contact-page .navbar-light .navbar-nav .nav-link.contact-link
+
+{
+    color: #c5a147 !important;
+}
+.navbar-light .navbar-brand img{
+    max-height: 111px !important;
+}
+.px-4 {
+    padding-left: 3px !important;
+}
+.kuf-top{
+    margin-top: 23px;
+}
+.date-in{
+    height: 37px;
+    color: #808B8D;
+}
+.send-icon{
+    margin-right: 6px;
+    position: relative;
+    top: 4px;
+}
